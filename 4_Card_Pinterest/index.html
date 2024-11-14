@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduction Pinterest</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex justify-content-center align-items-center" style="background-color: #d3d3d3; height: 100vh;">
+
+<div class="container d-flex justify-content-center">
+    <div class="row bg-white rounded-4 shadow-lg" style="max-width: 900px;">
+
+        <!-- Section Image -->
+
+        <div class="col-md-6 p-0">
+            <img src="./public/img/portrait.jpg" alt="Image des crayons" class="img-fluid rounded-start" style="height: 150px; width: 150px; object-fit: cover;">
+        </div>
+
+        <!-- Section Informations -->
+
+        <div class="col-md-6 p-4">
+
+            <!-- Lien et bouton Enregistrer -->
+
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <a href="#" class="text-decoration-none text-muted small">artstation.com</a>
+                <button class="btn btn-danger btn-sm rounded-pill px-3">Enregistrer</button>
+            </div>
+
+            <!-- Titre et description -->
+
+            <h2 class="h5 fw-bold mb-1">Photo sketch 1 Zhong Yang</h2>
+            <p class="text-muted small mb-3">photo sketch 1 by Zhong Yang on ArtStation.</p>
+
+            <!-- Section Abonnement -->
+
+            <div class="d-flex align-items-center mb-3">
+                <img src="./public/img/logo.jpg" alt="Logo ArtStation" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                <div>
+                    <p class="mb-0">ArtStation</p>
+                    <small class="text-muted">3 Millions d'abonnés</small>
+                </div>
+                <button class="btn btn-dark btn-sm ms-auto rounded-pill px-3">Abonné(e)</button>
+            </div>
+
+            <!-- Section Commentaires -->
+             
+            <h6 class="fw-semibold small">Commentaires</h6>
+            <div class="d-flex align-items-center mb-2">
+                <img src="./public/img/user.jpg" alt="Icône utilisateur" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                <input type="text" class="form-control form-control-sm" placeholder="Ajouter un commentaire">
+            </div>
+            <div class="small">
+                <p><strong>The Quixotic Girl</strong> a enregistré cette épingle dans le sous-tableau <strong>Fantasy (Female)</strong> du tableau <strong>Tableau 1</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
