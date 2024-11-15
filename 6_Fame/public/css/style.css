@@ -59,5 +59,9 @@
 }
 
 .liPricePlan {
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(197, 197, 197);
+}
+
+.borderCarousel {
+    border: 2px solid #5bb12f;
 }
